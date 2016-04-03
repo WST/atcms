@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<rss version="2.0">
+<channel>
+	<title>{CHANNEL_TITLE}</title>
+	<link>{CHANNEL_LINK}</link>
+	<description>{CHANNEL_DESCRIPTION}</description>
+	<language>{CHANNEL_LANGUAGE}</language>
+	<lastBuildDate>{CHANNEL_LASTBUILDDATE}</lastBuildDate>
+	{ITEMS}
+</channel>
+</rss>

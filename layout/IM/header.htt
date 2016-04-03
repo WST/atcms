@@ -1,0 +1,77 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html;charset=utf-8">
+	<meta http-equiv="Content-Style-Type" content="text/css">
+	<title>{?TITLE}{TITLE} &mdash; {TITLE?} {SITE}</title>
+	{?KEYWORDS}<meta name="keywords" content="{KEYWORDS}">{KEYWORDS?}
+	{?DESCRIPTION}<meta name="description" content="{DESCRIPTION}">{DESCRIPTION?}
+	{?ADDITIONAL_HTML_HEADERS}{ADDITIONAL_HTML_HEADERS}{ADDITIONAL_HTML_HEADERS?}
+	<link href="{PATH}/style.css" type="text/css" rel="stylesheet">
+	<link href="{PATH}/crir.css" type="text/css" rel="stylesheet">
+	<link href="/favicon.ico" rel="shortcut icon">
+	<script type="text/javascript" language="javascript" src="{PATH}/main.js"></script>
+	<script type="text/javascript" language="javascript" src="{PATH}/crir.js"></script>
+</head>
+<body>
+<!-- Google Analitics -->
+<script type="text/javascript">
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<script type="text/javascript">
+try {
+var pageTracker = _gat._getTracker("UA-7191559-1");
+pageTracker._trackPageview();
+} catch(err) {}</script>
+<!-- End of Google Analitics -->
+<table height='100%' width="100%" cellpadding="0" cellspacing="0">
+  <tr>
+    <td class='main_info' colspan='7'>
+    	<table cellpadding="0" cellspacing="0" width="100%"> <!--added by WST..!?-->
+		<tr>
+			<td width="1%"><a href="/"><img alt="Home" src="{PATH}/images/site_logo.png" /></a></td>
+			<td width="*" align="right"><a class="flink" href="http://forum.unmondeparfait.org">Discussion forum</a><span class="farr">→</span></td>
+		</tr>
+	</table>
+    </td>
+  </tr>
+  <tr>
+    <td colspan='7' height='24'>
+<table class='main_menu' cellspacing='0' cellpadding='0'>
+  <tr>
+    <td width='25'></td>
+    <td class='bleft'></td>
+
+    {!SESSION}<td width='32%' class='item'><a href='{WEB_PATH}/index.php'>{LANG_HOME}</a></td>
+    <td class='divider'></td>
+    <td width='*' class='item'><a href='{WEB_PATH}/users.php'>{LANG_USERS}</a></td>
+    <td class='divider'></td>
+    <td width='32%' class='item'><a href='{WEB_PATH}/register.php'>{LANG_REGISTER}</a></td>{SESSION!}
+
+    {?SESSION}<td width='{!ADMIN}24%{ADMIN!}{?ADMIN}19%{ADMIN?}' class='item'><a href='{WEB_PATH}/index.php'>{LANG_HOME}</a></td>
+    <td class='divider'></td>
+    <td width='{!ADMIN}24%{ADMIN!}{?ADMIN}19%{ADMIN?}' class='item'><a href='{WEB_PATH}/users.php'>{LANG_USERS}</a></td>
+    <td class='divider'></td>
+    {?ADMIN}<td width='*' class='item'><a href='{WEB_PATH}/admin.php'>{LANG_ACP}</a></td>
+    <td class='divider'></td>{ADMIN?}
+    <td width='{!ADMIN}24%{ADMIN!}{?ADMIN}19%{ADMIN?}' class='item'><a href='{WEB_PATH}/profile.php'>{LANG_PROFILE}</a></td>
+    <td class='divider'></td>
+    <td width='{!ADMIN}*{ADMIN!}{?ADMIN}19%{ADMIN?}' class='item'><a href='{WEB_PATH}/door.php?act=logout'>{LANG_LOGOUT}&nbsp;({USER})</a></td>{SESSION?}
+
+    <td class='bright'></td>
+    <td width='25'></td>
+  </tr>
+</table>
+    </td>
+  </tr>
+  <tr>
+    <td height='15' colspan='7'></td>
+  </tr>
+  <tr>
+    <td width='25'></td>
+    <td width="220" valign="top">
+{BLOCKS_LEFT}
+    </td>
+    <td width='15'></td>
+    <td valign="top" id="container">

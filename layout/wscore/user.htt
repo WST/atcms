@@ -1,0 +1,5 @@
+<tr>
+	<td><a href="vcard.php?id_user={ID_USER}">{NAME}</a></td>
+	<td>{LEVEL}</td>
+	<td>{REGTIME}</td>
+</tr>

@@ -1,0 +1,34 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html;charset=utf-8">
+	<meta http-equiv="Content-Style-Type" content="text/css">
+	{?KEYWORDS}<meta name="keywords" content="{KEYWORDS}">{KEYWORDS?}
+	{?DESCRIPTION}<meta name="description" content="{DESCRIPTION}">{DESCRIPTION?}
+	{?ADDITIONAL_HTML_HEADERS}{ADDITIONAL_HTML_HEADERS}{ADDITIONAL_HTML_HEADERS?}
+	<title>{?TITLE}{TITLE} &mdash; {TITLE?} {SITE}</title>
+	<link href="{PATH}/style.css" type="text/css" rel="stylesheet">
+	<link href="favicon.ico" rel="SHORTCUT ICON">
+	<!-- ►►►► -->
+</head>
+<body>
+
+<table width="100%" cellpadding="0" cellspacing="0">
+	<tr>
+		<td id="header">
+			<span id="sname">{SITE}</span><br><span id="sdesc">{SITE_DESCRIPTION}</span>
+		</td>
+	</tr>
+	<tr>
+		<td id="hmenu">
+			<a href="{WEB_PATH}/index.php">{LANG_HOME}</a>&nbsp;&bull;&nbsp;<a href="{WEB_PATH}/users.php">{LANG_USERS}</a>{?ADMIN}&nbsp;&bull;&nbsp;<a href="{WEB_PATH}/admin.php">{LANG_ACP}</a>{ADMIN?}{!SESSION}&nbsp;&bull;&nbsp;<a href="{WEB_PATH}/register.php">{LANG_REGISTER}</a>{SESSION!}{?SESSION}&nbsp;&bull;&nbsp;<a href="{WEB_PATH}/profile.php">{LANG_PROFILE}</a>&nbsp;&bull;&nbsp;<a href="{WEB_PATH}/door.php?act=logout">{LANG_LOGOUT}&nbsp;({USER})</a>{SESSION?}
+		</td>
+	</tr>
+</table>
+
+<table width="100%" cellpadding="0" cellspacing="0" id="main">
+<tr>
+<td width="200" valign="top" id="left_blocks">
+{BLOCKS_LEFT}
+</td>
+<td valign="top">

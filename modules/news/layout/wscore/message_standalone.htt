@@ -1,0 +1,35 @@
+<table width="100%" cellpadding="0" cellspacing="0">
+	<tr>
+		<td colspan="2" style="padding-bottom: 4px;">
+			<div style="font-size: 9pt;">{TITLE}</div>
+			<div><small>{DATETIME}, {LANG_NEWS_BY}&nbsp;{AUTHOR}</small></div>
+		</td>
+	</tr>
+	<tr>
+		<td colspan="2" style="padding-bottom: 24px;">
+			{MESSAGE}
+		</td>
+	</tr>
+	{?ALLOW_COMMENTS}
+	<tr><td colspan="2"><h1>{LANG_NEWS_COMMENTS}</h1></td></tr>
+	{?COMMENTS}
+	<tr>
+		<td align="right" colspan="2" style="padding-bottom: 16px;">
+			<a href="{WEB_PATH}/index.php?go={GO}&amp;act=post&amp;id_message={ID_MESSAGE}">{LANG_NEWS_POST}</a>
+		</td>
+	</tr>
+	<tr>
+		<td colspan="2">
+			{COMMENTS}
+		</td>
+	</tr>
+	{COMMENTS?}
+	{!COMMENTS}
+	<tr>
+		<td colspan="2" align="center">
+			<a name="comments"></a><a href="{WEB_PATH}/index.php?go={GO}&amp;act=post&amp;id_message={ID_MESSAGE}">{LANG_NEWS_POST_FIRST}</a>
+		</td>
+	</tr>
+	{COMMENTS!}
+	{ALLOW_COMMENTS?}
+</table>

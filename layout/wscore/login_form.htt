@@ -1,0 +1,31 @@
+{!SESSION}<form action="{WEB_PATH}/door.php" method="POST">
+<input type="hidden" name="act" value="login">{SESSION!}
+<table cellpadding="5" cellspacing="0" width="100%">
+	{!SESSION}
+	<tr>
+		<td align="right" width="1%">{LANG_LOGIN}:</td>
+		<td width="*"><input type="text" name="name" class="r_field"></td>
+	</tr>
+	<tr>
+		<td align="right" width="1%">{LANG_PASSWORD}:</td>
+		<td width="*"><input type="password" maxlength="16" name="password" class="r_field"></td>
+	</tr>
+	<tr>
+		<td colspan="2" align="center"><input type="checkbox" name="autologin" value="1" checked style="vertical-align: middle;"><small>&nbsp;{LANG_AUTOLOGIN}</small></td>
+	</tr>
+	<tr>
+		<td align="center" colspan="2"><input type="submit" class="r_button" value="{LANG_LOGIN_BUTTON}"></td>
+	</tr>
+	{SESSION!}
+	{?SESSION}
+	{?AVATAR}
+	<tr>
+		<td align="center"><a href="{WEB_PATH}/profile.php">{AVATAR}</a></td>
+	</tr>
+	{AVATAR?}
+	<tr>
+		<td align="center">{LANG_WELCOME}<br><a href="{WEB_PATH}/door.php?act=logout">{LANG_YOU_MAY_EXIT}</a></td>
+	</tr>
+	{SESSION?}
+</table>
+{!SESSION}</form>{SESSION!}

@@ -1,0 +1,43 @@
+<html>
+<head>
+<meta http-equiv="content-type" content="text/html;charset=utf-8">
+<style type="text/css">
+<!--
+body
+{
+	background-color: #ccc;
+	color: #000;
+	font-family: "Verdana", "Sans Serif", sans-serif;
+	font-size: 8pt;
+	margin: 0px;
+	padding: 16px;
+}
+h1
+{
+	font-size: 16pt;
+	font-family: "Tahoma", "Verdana", "Sans", sans-serif;
+	text-decoration: underline;
+	background-color: #0162B2;
+	color: #fff;
+	border-bottom: 16px solid #000;
+	padding: 16px;
+	font-weight: normal;
+}
+#page
+{
+	margin: 0px;
+	padding: 16px;
+	background-color: #fff;
+	border: 1px solid #999;
+	color: #000;
+}
+-->
+</style>
+</head>
+<body>
+<div id="page">
+<h1>{SITE}&nbsp;&mdash; {TITLE}</h1>
+{TEXT}
+</div>
+</body>
+</html>

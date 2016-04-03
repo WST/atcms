@@ -1,0 +1,10 @@
+{?ADMIN}
+<h2>{LANG_GALLERY_IMAGE_ADDITION}</h2>
+<ul>
+	<li><a href="{WEB_PATH}/index.php?go={GO}&amp;act=post_new">{LANG_GALLERY_POST_NEW_IMAGE}</a></li>
+	<li><a href="{WEB_PATH}/index.php?go={GO}&amp;act=add_existing">{LANG_GALLERY_ADD_EXISTING_IMAGE}</a></li>
+</ul>
+{ADMIN?}
+<table width="100%" cellpadding="3" cellspacing="0" style="margin-top: 16px;">
+	{PHOTO_ROWS}
+</table>

@@ -1,0 +1,8 @@
+<h1>{LANG_TAGS}</h1>
+<div class="navbar"><a href="{WEB_PATH}/admin.php">{LANG_ACP}</a>&nbsp;&raquo;&nbsp;{LANG_ADMIN_TAGS}</div>
+<div class="actions"><a href="{WEB_PATH}/admin.php?act=new_tag">{LANG_NEW_TAG}</a></div>
+{PGBAR}
+<table width="100%" class="gbk" cellpadding="3" cellspacing="0">
+	<tr><th>{LANG_FROM}</th><th>{LANG_TO}</th><th width="1%">{LANG_TAG_LANGUAGE}</th><th width="1%">{LANG_TAG_ACTIONS}</th></tr>
+	{TAGS_LIST}
+</table>

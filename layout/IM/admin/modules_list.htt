@@ -1,0 +1,6 @@
+<h1>{LANG_MODULES_MANAGEMENT}</h1>
+<div class="navbar"><a href="{WEB_PATH}/admin.php">{LANG_ACP}</a>&nbsp;&raquo;&nbsp;{LANG_MODULES_MANAGEMENT}</div>
+<table width="100%" class="gbk" cellpadding="3" cellspacing="0">
+<tr><th>{LANG_MODULE_NAME}</th><th>{LANG_MODULE_STATUS}</th><th>{LANG_MODULE_ACTIONS}</th></tr>
+{MODULES_LIST}
+</table>

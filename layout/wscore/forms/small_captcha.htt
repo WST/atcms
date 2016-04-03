@@ -1,0 +1,4 @@
+<tr>
+	<td width="40%">{SMALL_CAPTCHA}</td>
+	<td width="60%"><input type="hidden"><input type="text" name="code" value="{VALUE}" class="r_field"></td>
+</tr>

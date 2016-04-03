@@ -1,0 +1,4 @@
+<tr>
+	<td width="40%">{?NOTE}<b>{NOTE?}{TITLE}:{?NOTE}<br><small>{NOTE}</small>{NOTE?}</td>
+	<td width="60%"><input type="file" name="{NAME}"></td>
+</tr>

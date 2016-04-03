@@ -1,0 +1,3 @@
+<h1>{LANG_SETTINGS}</h1>
+<div class="navbar"><a href="{WEB_PATH}/admin.php">{LANG_ACP}</a>&nbsp;&raquo;&nbsp;{LANG_SETTINGS}</div>
+{FORM}

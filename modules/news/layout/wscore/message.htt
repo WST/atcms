@@ -1,0 +1,24 @@
+<tr>
+	<td style="padding-bottom: 4px;">
+		<div style="font-size: 9pt; font-weight: bold; padding-bottom: 2px;"><a href="{WEB_PATH}/index.php?go={GO}&amp;act=show_message&amp;id_message={ID_MESSAGE}">{TITLE}</a></div>
+		<div><small>{DATETIME}, {LANG_NEWS_BY}&nbsp;{AUTHOR}</small></div>
+	</td>
+</tr>
+<tr>
+	<td style="padding-bottom: 8px;">
+		{MESSAGE}
+	</td>
+</tr>
+<tr>
+	<td style="padding-bottom: 24px;" align="center">
+		<small>
+			{?ALLOW_COMMENTS}
+			<a href="{WEB_PATH}/index.php?go={GO}&amp;act=show_message&amp;id_message={ID_MESSAGE}#comments">{LANG_NEWS_COMMENTS}:&nbsp;{COMMENTS_COUNT}</a>&nbsp;|&nbsp;<a href="{WEB_PATH}/index.php?go={GO}&amp;act=post&amp;id_message={ID_MESSAGE}">{LANG_NEWS_POST}</a>
+			{?ADMIN}<br><a href="{WEB_PATH}/index.php?go={GO}&amp;act=edit_message&amp;id_message={ID_MESSAGE}">{LANG_NEWS_EDIT_MESSAGE}</a>&nbsp;|&nbsp;<a href="{WEB_PATH}/index.php?go={GO}&amp;act=delete_message&amp;id_message={ID_MESSAGE}&amp;{CONFIRM}">{LANG_NEWS_DELETE_MESSAGE}</a>{ADMIN?}
+			{ALLOW_COMMENTS?}
+			{!ALLOW_COMMENTS}
+			{?ADMIN}<br><a href="{WEB_PATH}/index.php?go={GO}&amp;act=edit_message&amp;id_message={ID_MESSAGE}">{LANG_NEWS_EDIT_MESSAGE}</a>&nbsp;|&nbsp;<a href="{WEB_PATH}/index.php?go={GO}&amp;act=delete_message&amp;id_message={ID_MESSAGE}&amp;{CONFIRM}">{LANG_NEWS_DELETE_MESSAGE}</a>{ADMIN?}
+			{ALLOW_COMMENTS!}
+		</small>
+	</td>
+</tr>

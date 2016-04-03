@@ -1,0 +1,6 @@
+<h1>Техническое обслуживание</h1>
+<div class="navbar"><a href="{WEB_PATH}/admin.php">{LANG_ACP}</a>&nbsp;&raquo;&nbsp;{LANG_TECHNICAL_SERVICE}</div>
+<ul>
+	<li><a href="{WEB_PATH}/admin.php?act=service&amp;do=syncronize_avatars">{LANG_SYNCRONIZE_AVATARS}</a></li>
+	<li><a href="{WEB_PATH}/admin.php?act=service&amp;do=optimize_database">{LANG_OPTIMIZE_DATABASE}</a></li>
+</ul>

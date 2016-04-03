@@ -1,0 +1,8 @@
+<h1>{LANG_LOGS}</h1>
+<div class="navbar"><a href="{WEB_PATH}/admin.php">{LANG_ACP}</a>&nbsp;&raquo;&nbsp;{LANG_ADMIN_LOGS}</div>
+<div class="actions"><a href="{WEB_PATH}/admin.php?act=truncate_logs&amp;{CONFIRM}">{LANG_TRUNCATE_LOGS}</a></div>
+{PGBAR}
+<table width="100%" class="gbk" cellpadding="3" cellspacing="0">
+	<tr><th>{LANG_EVENT_TYPE}</th><th>{LANG_EVENT_DATETIME}</th><th>{LANG_EVENT_BY}</th><th>{LANG_EVENT_MESSAGE}</th></tr>
+	{LOGS_LIST}
+</table>

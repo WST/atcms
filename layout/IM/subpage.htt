@@ -1,0 +1,2 @@
+<div style="padding-bottom: 16px;"><b><a href="index.php?go={SUBPAGE_ID}">{SUBPAGE_TITLE}</a></b>
+{?SUBPAGE_DESCR}<br />{SUBPAGE_DESCR}{SUBPAGE_DESCR?}</div>

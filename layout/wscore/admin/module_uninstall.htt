@@ -1,0 +1,5 @@
+<h1>{LANG_MODULE_DELETION}</h1>
+<pre>
+{INFORMATION}
+</pre>
+<div><p>{LANG_MODULE_DELETION_NOTICE}</p><p><a href="{WEB_PATH}/admin.php?act=modules">{LANG_RETURN_TO_ACP}</a></p></div>

@@ -1,0 +1,1 @@
+<a href="{WEB_PATH}/vcard.php?id_user={ONLINE_ID_USER}" class="online_level_{ONLINE_LEVEL}">{ONLINE_NAME}</a>

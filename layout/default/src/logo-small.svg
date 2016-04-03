@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://web.resource.org/cc/"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="744.09448819"
+   height="1052.3622047"
+   id="svg2"
+   sodipodi:version="0.32"
+   inkscape:version="0.45.1"
+   sodipodi:docbase="/var/www/html/atc/atcms2/layout/default/src"
+   sodipodi:docname="logo-small.svg"
+   inkscape:output_extension="org.inkscape.output.svg.inkscape">
+  <defs
+     id="defs4">
+    <linearGradient
+       inkscape:collect="always"
+       id="linearGradient3159">
+      <stop
+         style="stop-color:#ffffff;stop-opacity:1;"
+         offset="0"
+         id="stop3161" />
+      <stop
+         style="stop-color:#ffffff;stop-opacity:0;"
+         offset="1"
+         id="stop3163" />
+    </linearGradient>
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient3159"
+       id="linearGradient3165"
+       x1="225.94881"
+       y1="-985.30707"
+       x2="225.44225"
+       y2="-1033.288"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="translate(-4.774767,3.3509491)" />
+  </defs>
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     gridtolerance="10000"
+     guidetolerance="10"
+     objecttolerance="10"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="0.24748737"
+     inkscape:cx="633.50113"
+     inkscape:cy="396.10658"
+     inkscape:document-units="px"
+     inkscape:current-layer="layer1"
+     inkscape:window-width="1024"
+     inkscape:window-height="697"
+     inkscape:window-x="0"
+     inkscape:window-y="0" />
+  <metadata
+     id="metadata7">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <rect
+       style="opacity:1;fill:#cc3300;fill-opacity:1;stroke:none;stroke-width:5;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="rect2160"
+       width="486.89352"
+       height="335.37064"
+       x="131.31984"
+       y="367.47876" />
+    <rect
+       style="opacity:1;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:5;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="rect3149"
+       width="5.7142859"
+       height="144.28572"
+       x="414.42856"
+       y="478.07648"
+       inkscape:export-xdpi="33.68317"
+       inkscape:export-ydpi="33.68317"
+       inkscape:export-filename="/var/www/html/atc/atcms2/layout/default/images/logo-small.png" />
+    <path
+       style="font-size:72px;font-style:normal;font-weight:normal;line-height:125%;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:SylfaenARM"
+       d="M 355.46418,505.7662 C 351.62687,505.76626 347.72942,506.11823 343.7782,506.80204 C 339.82693,507.48597 336.80787,508.09963 334.71827,508.66946 L 334.71827,519.56762 L 335.28725,519.56762 C 338.97255,518.16194 342.55298,517.0945 346.01035,516.37258 C 349.46768,515.61277 352.59432,515.23467 355.40582,515.23462 C 357.72334,515.23467 359.94547,515.38299 362.0731,515.68689 C 364.20066,515.99087 366.02431,516.5784 367.54407,517.45218 C 369.13971,518.36406 370.35549,519.62056 371.19138,521.2162 C 372.06516,522.81194 372.50436,524.82466 372.50441,527.25615 L 372.50441,528.90474 C 366.27354,529.20873 360.44485,529.66828 355.01191,530.27612 C 349.57891,530.88406 344.92526,532.03872 341.05001,533.74836 C 337.21272,535.45808 334.24016,537.82274 332.15057,540.82414 C 330.09896,543.78762 329.07224,547.67048 329.07224,552.49554 C 329.07224,558.38444 331.07916,563.22715 335.06842,567.02643 C 339.05766,570.82572 343.92072,572.73081 349.65766,572.73081 C 352.77305,572.73082 355.48085,572.43416 357.79845,571.82628 C 360.11598,571.25639 362.16941,570.52632 363.95512,569.65249 C 365.47478,568.96863 367.02794,568.06409 368.62367,566.9243 C 370.25731,565.74653 371.55455,564.82741 372.50441,564.18152 L 372.50441,570.93634 C 371.96574,579.10179 373.8133,583.64982 377.46475,588.72063 C 380.68557,592.36441 385.79062,593.95816 392.28742,593.95816 C 394.14903,593.95817 396.24897,593.78947 398.60457,593.44754 C 400.99806,593.10561 403.19982,592.6664 405.21349,592.1345 L 405.21349,582.50561 L 404.64451,582.50561 C 403.80862,582.84755 402.44452,583.28675 400.54493,583.81864 C 398.64524,584.31256 396.8216,584.5627 395.07397,584.56269 C 392.0725,584.5627 389.83002,584.21073 388.34833,583.52685 C 386.90456,582.80501 385.77026,581.69106 384.93444,580.17133 C 384.02259,578.53766 383.48158,576.79545 383.32963,574.93379 C 383.24338,573.85598 383.19172,572.50858 383.15456,570.96552 L 383.15456,537.52698 L 402.00386,537.52698 L 402.00386,529.00686 L 383.15456,529.00686 L 383.15456,527.76678 C 383.1545,523.66359 382.54084,520.22571 381.28714,517.45218 C 380.03331,514.67876 378.20967,512.41591 375.81617,510.66818 C 373.38457,508.88258 370.49348,507.62609 367.15016,506.90416 C 363.84474,506.14436 359.94729,505.76626 355.46418,505.7662 z M 372.50441,537.57074 L 372.50441,555.29667 C 369.84486,557.34831 366.95377,559.11086 363.83841,560.59257 C 360.72295,562.03632 357.28506,562.76637 353.52381,562.76636 C 349.00264,562.76638 345.6462,561.84725 343.44265,560.02359 C 341.23905,558.16196 340.13087,555.4134 340.13089,551.76608 C 340.13087,548.53672 341.09072,546.00336 342.99038,544.17967 C 344.89,542.31806 347.36804,540.95396 350.44548,540.08009 C 353.02897,539.35827 356.52795,538.81147 360.93514,538.43151 C 365.38026,538.05162 369.23698,537.76074 372.50441,537.57074 z "
+       id="text2160"
+       sodipodi:nodetypes="csccccssccccsccsssccccccscccccscccccccccsccccccscscccc"
+       inkscape:export-filename="/var/www/html/atc/atcms2/layout/default/images/logo-small.png"
+       inkscape:export-xdpi="33.68317"
+       inkscape:export-ydpi="33.68317" />
+  </g>
+</svg>

@@ -1,0 +1,380 @@
+/*
+	Version: IM Fan-Site 1.0.0
+	Template by Erik
+	http://edstudio.net.ru
+	---
+	Some modifications by WatchRooster
+*/
+
+* {
+	font-family: 'Verdana', 'Sans Serif', sans-serif;
+	font-size: 12px;
+	text-decoration: none;
+}
+
+HTML, BODY {
+	background: white url('images/main_bg.png') repeat-x;
+	margin: 0px;
+	padding: 0px;
+	width: 100%;
+	height: 100%;
+}
+
+H1 {
+	color: #3086B4;
+	font-family: "Verdana", "Sans Serif", sans-serif;
+	font-size: 12pt;
+	font-weight: normal;
+	padding-bottom: 8px;
+	margin-bottom: 32px;
+	border-bottom: 2px solid #3086B4;
+}
+
+H2 {font-size: 15px;}
+
+H3 {font-size: 14px;}
+
+H4 {font-size: 13px;}
+
+H5 {font-size: 12px;}
+
+/* Оформление HEADER'а */
+
+/* Оформление главного меню */
+
+TABLE.main_menu {
+	height: 24px;
+	width: 100%;
+	padding: 0px;
+	margin: 0px;
+	border: 0px;
+}
+
+TD.bleft {
+	background-image: url('images/menu/left.png');
+	width: 10px;
+}
+
+TD.bright {
+	background-image: url('images/menu/right.png');
+	width: 10px;
+}
+
+TD.divider {
+	background-image: url('images/menu/divider.png');
+	width: 2px;
+}
+
+TD.item {
+	background-image: url('images/menu/bg.png');
+	text-align: center;
+	vertical-align: middle;
+}
+
+TABLE.main_menu A {
+	font-weight: bold;
+	text-decoration: underline;
+	color: white;
+	font-size: 11px;
+}
+
+/* Оформление инфы */
+
+TD.main_info {
+	text-align: left;
+	color: #601371;
+	padding-bottom: 10px;
+	padding-left: 24px;
+	padding-right: 64px;
+	vertical-align: middle;
+	height: 100px;
+}
+
+td.main_info {
+	font-size: 11px;
+}
+
+/* FOOTER */
+
+TD.footer {
+	text-align: center;
+	padding-bottom: 10px;
+	color: #601371;
+	height: 50px;
+	background: transparent url('images/logo_mini.png') no-repeat right bottom;
+}
+
+td.footer * {
+	font-size: 11px;
+}
+
+TD.footer A {
+	border-bottom: 1px dotted #ca3798;
+	color: #ca3798;
+	text-decoration: none;
+}
+
+TD.footer A:Hover {
+	border-bottom: 1px solid #ca3798;
+}
+
+HR.footer {
+	width: 600px;
+	margin: 5px 25px 5px 25px;
+	border-width: 0px 0px 1px 0px;
+	border-color: #601371;
+}
+
+/* Блоки меню и тд. */
+
+TH.block_title {
+	text-align: center;
+	vertical-align: middle;
+	background-image: url('images/block/header.png');
+	width: 220px;
+	height: 22px;
+	color: #000000;
+	font-weight: bold;
+	text-decoration: none;
+}
+
+TH.block_title A {
+	font-weight: bold;
+	text-decoration: underline;
+	color: #000000;
+	font-size: 11px;
+}
+
+DIV.block_body {
+	padding: 5px;
+	background: transparent url('images/block/footer.gif') no-repeat right bottom;
+	/*background-image: url('images/transparent.png');*/
+	min-height: 15px;
+	font-size: 11px;
+}
+
+DIV.block_body A {
+	color: #000000;
+	text-decoration: underline;
+	font-weight: normal;
+}
+
+div.block_body * {
+	font-size: 11px;
+}
+
+/* Поле ввода */
+
+.input_field {
+	border: 1px solid #54b227;
+	width: 100%;
+	background-color: transparent;
+	/*height: 17px;*/
+	color: #000000;
+	padding: 2px;
+}
+
+/* Поле выбора файла */
+
+.input_file {
+	border: 1px solid #54b227;
+	width: 100%;
+	background-color: transparent;
+	height: 17px;
+	color: #000000;
+}
+
+/* Поле выпадающего списка */
+
+.input_select {
+	border: 1px solid #54b227;
+	width: 100%;
+	height: 17px;
+	color: #000000;
+}
+
+/* Кнопка */
+
+.input_button {
+	/*background-color: transparent;*/
+	color: #fff;
+	border: 1px solid #54b227;
+	background-color: #92C440;
+	padding: 2px 18px 2px 18px;
+	margin: 0px;
+	cursor: pointer;
+}
+.input_button:hover { /* это не работает в MSIE, но похуй на MSIE */
+	background-color: #AADF55;
+}
+
+/* Типа TEXTAREA */
+
+.input_textarea {
+	background-color: transparent;
+	width: 100%;
+	color: #000;
+	/*border: 1px solid #54b227;*/
+	border: 1px solid #3086B4;
+	font-size: 11px;
+	padding: 2px;
+	height: 140px;
+	margin: 0px;
+}
+
+/* Формы ввода */
+
+table.gbk /* the guestbook table */
+{
+	border-collapse: collapse;
+	margin-bottom: 15px;
+	background-color: #fff;
+	border: 4px solid #3086B4;
+
+}
+
+table.gbk th
+{
+	font-weight: bold;
+	font-size: 12px;
+	color: #601371;
+	text-align: center;
+	border-bottom: 1px solid #ca3798;
+	border-top: 1px solid #ca3798;
+	background-color: #A9CEE1;
+}
+table.gbk td {
+	border: 1px solid #3086B4;
+	vertical-align: top;
+}
+table.gbk th {
+	border: 1px solid #3086B4;
+	color: #3086B4;
+	text-align: left;
+	font-weight: normal;
+}
+table.gbk th td,table.gbk td td
+{
+	border: 0px none;
+	background-color: transparent;
+	color: #000000;
+}
+
+SMALL, .small, small *,.small * {
+	/*font-style: italic;*/
+	font-size: 11px;
+}
+
+a {
+	/*border-bottom: 1px dotted #ca3798;*/
+	text-decoration: underline;
+	color: #3086B4;
+}
+a:hover {
+	text-decoration: none;
+	color: #ca3798;
+}
+
+#container {
+	padding: 0px 16px 48px 16px;
+}
+#container p {
+	line-height: 14pt;
+	color: #333;
+}
+
+.widget_title { /* Заголовок элемента формы */
+	color: #3086B4;
+	font-size: 12px;
+	font-weight: bold;
+}
+
+img {
+	border: 0px;
+}
+
+.navbar {
+	border: 2px solid #3086B4;
+	background-color: #fff;
+	padding: 8px;
+	margin: 8px 0px 8px 0px;
+}
+
+fieldset {
+	padding: 8px;
+	background-color: #E4F4F6;
+	border: 1px solid #3088B4;
+	margin-bottom: 8px;
+	background-image: url('images/tab_bg.png');
+	background-position: 0px 0px;
+	background-repeat: repeat-x;
+}
+fieldset legend {
+	padding: 2px 4px 2px 4px;
+	color: #3086B4;
+	/*
+	border: 1px solid #3088B4;
+	background-color: #fff;
+	*/
+}
+
+h1.message_title {
+	color: #3086B4;
+	font-family: "Verdana", "Sans Serif", sans-serif;
+	font-size: 12pt;
+	font-weight: normal;
+	padding-bottom: 8px;
+	margin-bottom: 8px;
+	border-bottom: 1px solid #3086B4;
+}
+
+div.message_text {
+	padding-bottom: 4px;
+}
+
+div.message_links {
+	text-align: center;
+}
+
+div.message_links a:link,div.message_links a:visited,div.message_links a:active {
+	padding: 4px 8px 4px 8px;
+	border: 1px solid #54b227;
+	background-color: #92C440;
+	padding: 2px 18px 2px 18px;
+	margin: 0px;
+	color: #fff;
+	text-decoration: none;
+}
+
+div.message_links a:hover {
+	background-color: #AADF55;
+}
+
+table.message {
+	background-color: #fff;
+	border: 4px solid #3086B4;
+}
+
+div.video {
+	width: 445px;
+	height: 364px;
+	padding-top: 10px;
+	padding-left: 10px;
+	margin: 32px 0px 32px 0px;
+	background-image: url('images/videobg.png');
+	background-repeat: no-repeat;
+	text-align: left;
+}
+
+a.forumlink,span.forumarr {
+	font-family: "Tahoma", "DejaVu Sans", sans-serif;
+	font-size: 22pt;
+	font-weight: normal;
+	color: #fff;
+	opacity: 0.7;
+	padding-left: 24px;
+}
+
+a.forumlink:hover {
+	opacity: 1.0;
+}

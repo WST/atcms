@@ -1,0 +1,6 @@
+<h1>{LANG_USERS}</h1>
+{PGBAR}
+<table width="100%" class="gbk" cellpadding="3" cellspacing="0">
+	<tr><th>{LANG_LOGIN}</th><th>{LANG_ACCESS_LEVEL}</th><th>{LANG_REGISTERED_TIME}</th></tr>
+	{USERS_LIST}
+</table>

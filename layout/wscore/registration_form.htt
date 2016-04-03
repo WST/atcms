@@ -1,0 +1,46 @@
+<h1>{LANG_REGISTRATION}</h1>
+{FORM}
+<!--
+<form action="register.php" method="POST">
+<input type="hidden" name="act" value="save">
+<table width="100%" cellpadding="3" cellspacing="0" class="gbk">
+	<tr>
+		<th>{LANG_PARAM}</th>
+		<th>{LANG_VAL}</th>
+	</tr>
+	<tr>
+		<td colspan="2"><small>{LANG_REQUIRED_ALL}</small></td>
+	</tr>
+	<tr>
+		<td><b>{LANG_LOGIN}:</b><br><small>{LANG_LOGIN_NOTICE}</small></td>
+		<td><input type="text" name="name" maxlength="32" class="r_field"></td>
+	</tr>
+	<tr>
+		<td><b>{LANG_EMAIL}:</b><br><small>{LANG_EMAIL_NOTICE}</small></td>
+		<td><input type="text" name="email" maxlength="64" class="r_field"></td>
+	</tr>
+	<tr>
+		<td><b>{LANG_PASSWORD}:</b><br><small>{LANG_PASSWORD_NOTICE}</small></td>
+		<td><input type="password" name="password" maxlength="16" class="r_field"></td>
+	</tr>
+	<tr>
+		<td><b>{LANG_PASSWORD_CONFIRMATION}:</b><br><small>{LANG_PASSWORD_CONFIRMATION_NOTICE}</small></td>
+		<td><input type="password" name="password_confirmation" maxlength="16" class="r_field"></td>
+	</tr>
+	<tr>
+		<td colspan="2"><small>{LANG_REGCODE}</small></td>
+	</tr>
+	<tr>
+		<td>{CAPTCHA}</td>
+		<td><input type="text" name="code" maxlength="6" size="6" class="r_field"></td>
+	</tr>
+	<tr>
+		<td><b>{LANG_LANGUAGE}:</b><br><small>{LANG_LANGUAGE_NOTICE}</small></td>
+		<td><select name="language" class="r_field">{LANGUAGES}</select></td>
+	</tr>
+	<tr>
+		<td colspan="2" align="center"><input type="submit" class="r_button" value="{LANG_SUBMIT}"> <input type="reset" class="r_button" value="{LANG_RESET}"></td>
+	</tr>
+</table>
+</form>
+-->

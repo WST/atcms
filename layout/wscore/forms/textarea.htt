@@ -1,0 +1,8 @@
+{?TITLE}
+<tr><th colspan="2">{TITLE}:</th></tr>
+{TITLE?}
+<tr>
+	<td colspan="2">
+		<textarea class="textarea_msg" id="{ID}" name="{NAME}">{VALUE}</textarea>
+	</td>
+</tr>

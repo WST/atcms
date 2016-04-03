@@ -1,0 +1,6 @@
+<h1>{LANG_LANGUAGES_MANAGEMENT}</h1>
+<div class="navbar"><a href="{WEB_PATH}/admin.php">{LANG_ACP}</a>&nbsp;&raquo;&nbsp;{LANG_LANGUAGES_MANAGEMENT}</div>
+<table width="100%" class="gbk" cellpadding="3" cellspacing="0">
+<tr><th>{LANG_LANGUAGE_NAME}</th><th>{LANG_LANGUAGE_STATUS}</th><th>{LANG_LANGUAGE_ACTIONS}</th></tr>
+{LANGUAGES_LIST}
+</table>

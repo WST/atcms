@@ -1,0 +1,4 @@
+<tr>
+  <td width="40%"><span class="widget_title">{TITLE}</span>{?NOTE}<br><small>{NOTE}</small>{NOTE?}</td>
+  <td width="60%"><input type="checkbox" name="{NAME}"{?VALUE} checked{VALUE?} value="1" class="crirHiddenJS" id="{NAME}"></td>
+</tr>

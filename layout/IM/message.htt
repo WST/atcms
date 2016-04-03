@@ -1,0 +1,9 @@
+<table align="center" width="400" cellpadding="8" cellspacing="0" class="message">
+	<tr>
+		<td>
+			<h1 class="message_title">{TITLE}</h1>
+			<div class="message_text">{TEXT}</div>
+			{?HREF}<div class="message_links"><a href="{HREF}" id="message_link">{LINK_TITLE}</a></div>{HREF?}
+		</td>
+	</tr>
+</table>

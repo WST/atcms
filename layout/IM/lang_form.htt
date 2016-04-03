@@ -1,0 +1,8 @@
+<form action="language.php" method="POST">
+<table>
+  <tr>
+    <td><select name="language" class="input_field">{LANGUAGES}</select></td>
+    <td width="1%"><input type="submit" value="Ok" class="input_button"></td>
+  </tr>
+</table>
+</form>

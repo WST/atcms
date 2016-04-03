@@ -1,0 +1,4 @@
+<div>
+<b><a href="{HREF}">{RESULT_TITLE}</a></b><br>
+{?RESULT_DESCRIPTION}{RESULT_DESCRIPTION}{RESULT_DESCRIPTION?}
+</div>

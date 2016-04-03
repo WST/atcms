@@ -1,0 +1,7 @@
+<form action="language.php" method="POST">
+<table cellpadding="5" cellspacing="0" width="100%">
+	<tr>
+		<td><select name="language" class="r_field">{LANGUAGES}</select></td><td width="1%"><input type="submit" value="ok" class="r_button"></td>
+	</tr>
+</table>
+</form>

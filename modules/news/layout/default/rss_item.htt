@@ -1,0 +1,6 @@
+<item>
+	<title>{ITEM_TITLE}</title>
+	<pubDate>{ITEM_PUBDATE}</pubDate>
+	<description>{ITEM_DESCRIPTION}</description>
+	<guid>{ITEM_GUID}</guid>
+</item>

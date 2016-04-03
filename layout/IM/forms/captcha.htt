@@ -1,0 +1,4 @@
+<tr>
+  <td width="40%">{CAPTCHA}</td>
+  <td width="60%"><input type="hidden"><input type="text" name="code" value="{VALUE}" class="input_field"></td>
+</tr>

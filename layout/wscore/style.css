@@ -1,0 +1,444 @@
+/*
+	Version: ArigatoCMS 1.0.0 beta 1
+	Template by the1st
+	http://the1st.net.ru
+	All rights reserved
+*/
+
+body /* the document */
+{
+	background-color: #FFF;
+	color: #000;
+	margin: 0px;
+	padding: 32px;
+}
+
+body,td,th,div,p /* fonts declaration for the most common tags */
+{
+	font-family: "Verdana", "Sans Serif", "Bitstream Vera Sans", sans-serif;
+	font-size: 8pt;
+	/*line-height: 12pt;*/
+	letter-spacing: 0.1px;
+}
+
+h1,h2,h3,h4,h5 /* fonts declaration for the headers */
+{
+	font-family: "Arial", "Tahoma", "Sans Serif", "Verdana", "Sans", sans-serif;
+}
+h1 {font-size: 14pt; color: #0162B2; background-color: transparent;} /* main title */
+h2 {font-size: 13pt;} /* subtitle 2 */
+h3 {font-size: 12pt;} /* subtitle 3 */
+h4 {font-size: 11pt;} /* subtitle 4 */
+h5 {font-size: 10pt;} /* subtitle 5 */
+
+small,.small
+{
+	font-size: 8pt;
+	color: #838C97;
+	line-height: 10pt;
+	letter-spacing: 0.1px;
+}
+
+hr /* Horizontal line */
+{
+	height: 0px;
+	border-top: 1px solid #aaa;
+	border-bottom: none;
+	border-left: none;
+	border-right: none;
+}
+img /* image */
+{
+	border: 0px;
+}
+
+img.smile
+{
+	cursor: pointer;
+	margin-right: 4px;
+	margin-left: 4px;
+	vertical-align: middle;
+}
+
+a
+{
+	color: #0162B2;
+	text-decoration: underline;
+}
+
+a.active
+{
+	font-weight: bold;
+}
+
+a:hover
+{
+	color: #000;
+	text-decoration: none;
+}
+
+#header
+{
+	background-color: #0162B2;
+	height: 80px;
+	vertical-align: middle;
+	padding-left: 32px;
+	color: #fff;
+	/*
+	background-image: url('./images/stack.png');
+	background-position: 95% 50%;
+	background-repeat: no-repeat;
+	*/
+}
+
+#sname
+{
+	font-size: 16pt;
+	font-family: "Tahoma", "Verdana", "Sans", sans-serif;
+	text-decoration: underline;
+}
+#sdesc
+{
+	font-size: 8pt;
+	font-family: "Verdana", "Sans", sans-serif;
+}
+
+#hmenu
+{
+	background-color: #000;
+	color: #fff;
+	height: 24px;
+	padding-left: 16px;
+}
+
+#hmenu a
+{
+	color: #fff;
+	text-decoration: none;
+}
+
+#hmenu a:hover
+{
+	color: #fff;
+	text-decoration: underline;
+}
+
+#main
+{
+	margin-top: 32px;
+}
+
+#left_blocks
+{
+	padding-right: 16px;
+}
+#right_blocks
+{
+	padding-left: 16px;
+}
+
+th.block
+{
+	text-align: left;
+	font-size: 9pt;
+	font-family: "Verdana", "Sans", sans-serif;
+	font-weight: normal;
+	padding-right: 16px;
+	background-color: #0162B2;
+	border: 0px none;
+	color: #fff;
+	padding: 8px;
+	height: 32px;
+}
+
+td.block
+{
+	text-align: left;
+	font-size: 9pt;
+	font-family: "Verdana", "Sans", sans-serif;
+	font-weight: normal;
+	/*padding-right: 16px;*/
+	border: 0px none;
+}
+
+table.block
+{
+	margin-bottom: 24px;
+}
+
+.r_field /* form fields */
+{
+	font-family: "Verdana", "Tahoma", "Sans", sans-serif;
+	border: 1px solid #838C97;
+	font-size: 8pt;
+	width: 100%;
+	color: #000;
+	background-color: #fff;
+}
+
+.num_field /* the control number */
+{
+	font-family: "Verdana", "Tahoma", "Sans", sans-serif;
+	border: 1px solid #838C97;
+	font-size: 8pt;
+}
+.r_button /* form buttons */
+{
+	font-family: "Verdana", "Tahoma", "Sans", sans-serif;
+	font-size: 8pt;
+	/*background-color: #838C97;*/
+	background-color: #0162B2;
+	color: #fff;
+	border: 1px solid #0162B2;
+	cursor: pointer;
+	height: 20px;
+	margin-right: 2px;
+	margin-left: 2px;
+}
+.r_button:hover /* мне похуй на MSIE! */
+{
+	/*border: 1px solid #fff;*/
+	border: 1px solid #f95;
+	background-color: #F95;
+	color: #fff;
+}
+.r_button:active
+{
+	border: 1px solid #fff;
+	background-color: #F95;
+	color: #fff;
+}
+
+.r_radio /* form radiobuttons */
+{
+	vertical-align: middle;
+}
+.num_img /* the control number */
+{
+	border: 1px solid #aaa;
+}
+div.copyright /* copyright block in the bottom */
+{
+	padding: 10px;
+	font-size: 8pt;
+	text-align: center;
+	color: #555;
+}
+hr.copyright /* horizontal line in the copyright block */
+{
+	width: 50%;
+}
+
+.textarea_msg /* textarea */
+{
+	border: 1px solid #838C97;
+	width: 100%;
+	height: 100px;
+	font-family: "Verdana", "Tahoma", "Sans", sans-serif;
+	font-size: 8pt;
+}
+
+table.gbk /* the guestbook table */
+{
+	border-collapse: collapse;
+	margin-bottom: 16px;
+}
+table.gbk td /* text container of the guestbook table */
+{
+	border: 1px solid #838C97;
+	background-color: #DFEDFF;
+}
+table.gbk th /* author's info container of the guestbook table */
+{
+	font-weight: normal;
+	text-align: left;
+	border: 1px solid #014882;
+	background-color: #0162B2;
+	color: #fff;
+}
+table.gbk th a
+{
+	color: #fff;
+	background-color: transparent;
+}
+table.gbk th td,table.gbk td td
+{
+	border: 0px none;
+	background-color: transparent;
+	color: #000;
+}
+
+
+form /* the forms */
+{
+	margin: 0px;
+	padding: 0px;
+}
+/*
+.code,.quote
+{
+	padding: 8px;
+	border: 4px solid #ccc;
+	background-color: #fff;
+	margin: 0px;
+}*/
+
+.bbquote,.bbcode
+{
+	padding: 8px;
+	border: 4px solid #ccc;
+	background-color: #fff;
+	margin: 0px;
+}
+
+.caption
+{
+	padding-bottom: 8px;
+	border-bottom: 1px solid #ccc;
+}
+
+blockquote
+{
+	margin: 0px;
+	padding: 0px;
+	font-size: 8pt;
+}
+
+pre
+{
+	margin: 0px;
+	padding: 0px;
+	overflow: auto;
+	font-family: "DejaVu Sans Mono", "Courier New", monospace;
+}
+
+ul li /* list element */
+{
+	list-style-image:url('images/dot.gif');
+}
+
+table.message
+{
+	background-color: #0162B2;
+	color: #fff;
+	margin-top: 24px;
+	margin-bottom: 24px;
+}
+
+h1.message_title
+{
+	color: #fff;
+	background-color: transparent;
+	text-align: center;
+	font-family: "Tahoma", "Sans Serif", sans-serif;
+	font-size: 16pt;
+	font-weight: normal;
+}
+
+div.message_text,div.message_links
+{
+	color: #fff;
+	background-color: transparent;
+	padding: 16px;
+	text-align: center;
+	font-size: 8pt;
+}
+
+div.message_text ul
+{
+	padding: 0px;
+	margin: 0px;
+}
+
+#message_link
+{
+	color: #fff;
+	background-color: transparent;
+	font-weight: bold;
+	text-decoration: none;
+	font-family: "Arial", "Sans Serif", sans-serif;
+	font-size: 10pt;
+}
+
+div.message_text ul li
+{
+	list-style-image: none;
+	text-align: left;
+}
+
+.pagebar,.actions
+{
+	padding-top: 5px;
+	padding-bottom: 5px;
+}
+table.toolbar
+{
+	border: 0px none;
+}
+table.toolbar td
+{
+	border: 0px none;
+}
+
+.admin_button
+{
+	cursor: pointer;
+	border: 1px solid #f4f4f4; /* MSIE не понимает transparent border */
+}
+
+div.navbar
+{
+	margin-top: 0px;
+	margin-left: 0px;
+	margin-right: 0px;
+	margin-bottom: 8px;
+	padding: 8px;
+	background-color: #e0e3e4;
+	border: 2px solid #999;
+}
+
+div.navbar a
+{
+	color: #333;
+	background-color: transparent;
+}
+
+div.navbar a:hover
+{
+	color: #333;
+	background-color: #eee;
+}
+
+fieldset
+{
+	padding: 5px;
+	border: 1px solid #838C97;
+}
+
+.element_menu,.element_menu a:link,.element_menu a:active,.element_menu a:visited
+{
+	color: #ccc;
+	font-size: 8pt;
+	background-color: transparent;
+}
+.element_menu a:hover
+{
+	color: #000;
+	background-color: transparent;
+}
+
+.form_error
+{
+	padding: 16px;
+	color: #c00;
+	font-size: 8pt;
+}
+
+a.online_level_1:link,a.online_level_1:hover,a.online_level_1:visited
+{
+	font-weight: bold;
+}
+a.online_level_0
+{
+	
+}

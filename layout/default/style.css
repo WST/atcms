@@ -1,0 +1,584 @@
+/*
+	Version: ArigatoCMS 1.0.0 beta 1
+	Template by the1st
+	http://the1st.net.ru
+	All rights reserved
+*/
+
+body /* the document */
+{
+	background-color: #f4f4f4;
+	/*background-color: #FFF;*/
+	color: #444;
+	margin: 0px;
+}
+
+body,td,th,div,p /* fonts declaration for the most common tags */
+{
+	font-family: "Verdana", "Sans Serif", "Bitstream Vera Sans", sans-serif;
+	font-size: 9pt;
+	line-height: 12pt;
+	letter-spacing: 0.1px;
+}
+
+h1,h2,h3,h4,h5 /* fonts declaration for the headers */
+{
+	font-family: "Arial", "Tahoma", "Sans Serif", "Verdana", "Sans", sans-serif;
+}
+h1 {font-size: 14pt;} /* main title */
+h2 {font-size: 13pt;} /* subtitle 2 */
+h3 {font-size: 12pt;} /* subtitle 3 */
+h4 {font-size: 11pt;} /* subtitle 4 */
+h5 {font-size: 10pt;} /* subtitle 5 */
+
+small,.small
+{
+	font-size: 8pt;
+	line-height: 10pt;
+	letter-spacing: 0.1px;
+}
+
+hr /* Horizontal line */
+{
+	height: 0px;
+	border-top: 1px solid #aaa;
+	border-bottom: none;
+	border-left: none;
+	border-right: none;
+}
+img /* image */
+{
+	border: 0px;
+}
+
+img.smile
+{
+	cursor: pointer;
+	margin-right: 4px;
+	margin-left: 4px;
+	vertical-align: middle;
+}
+
+a:link /* inactive links */
+{
+	color: #c00;
+	background-color: transparent;
+	text-decoration: none;
+}
+a:visited /* visited links */
+{
+	color: #c00;
+	background-color: transparent;
+	text-decoration: none;
+}
+a:hover /* links under the pointer */
+{
+	color: #000;
+	background-color: transparent;
+	text-decoration: none;
+}
+a:active /* active links */
+{
+	color: #000;
+	background-color: transparent;
+	text-decoration: underline;
+}
+
+small a:link,small a:visited,small a:active,.small a:link,.small a:visited,.small a:active
+{
+	color: #999;
+	text-decoration: underline;
+}
+small a:hover,.small a:hover
+{
+	color: #000;
+	text-decoration: none;
+}
+
+.logoline /* red line in the top of the site */
+{
+	background-color: #c30;
+	color: #fff;
+}
+td.topmenu_t /* the line upper the short menu line */
+{
+	background-image:url('images/list_1.gif');
+	color: #333;
+	background-repeat: repeat-x;
+	height: 8px;
+}
+td.topmenu_b /* the line below the short menu line */
+{
+	background-image:url('images/list_3.gif');
+	color: #333;
+	background-repeat: repeat-x;
+	height: 3px;
+}
+td.topmenu /* the short menu line */
+{
+	background-image:url('images/list_2.gif');
+	color: #333;
+	background-repeat: repeat-x;
+	font-weight: bold;
+	font-size: 8pt;
+}
+.art_icon /* article icon */
+{
+	vertical-align: middle;
+}
+table.block /* "blocks" are the container tables with a title in the top */
+{
+	/*background-color: #e0e3e4;*/
+	color: #333;
+	margin-bottom: 8px;
+}
+
+table.block th.tl
+{
+	width: 10px;
+	background-image: url('images/ex/tl.png');
+	background-repeat: no-repeat;
+	background-color: #ccc;
+	border-bottom: 1px solid #999;
+}
+
+table.block th.tr
+{
+	width: 10px;
+	background-image: url('images/ex/tr.png');
+	background-repeat: no-repeat;
+	background-color: #ccc;
+	border-bottom: 1px solid #999;
+}
+
+table.block td.bl
+{
+	width: 10px;
+	height: 10px;
+	background-image: url('images/ex/bl.png');
+}
+
+table.block td.br
+{
+	width: 10px;
+	height: 10px;
+	background-image: url('images/ex/br.png');
+}
+
+table.block td.b
+{
+	background-color: #e0e3e4;
+}
+
+.block_th /* a title of the block */
+{
+	background-color: #ccc;
+	color: #A00;
+	font-weight: normal;
+	font-size: 8pt;
+	height: 22px;
+	vertical-align: middle;
+	border-bottom: 1px solid #999;
+	background-image: url('images/ex/path2760.png');
+	background-repeat: no-repeat;
+	background-position: 50% 50%;
+}
+
+.block_td
+{
+	padding-left: 0px;
+	padding-right: 0px;
+	padding-top: 2px;
+	padding-bottom: 0px;
+	background-color: #e0e3e4;
+	border-top: 1px solid #eee;
+}
+
+td.l,td.r
+{
+	width: 10px;
+	border-top: 1px solid #eee;
+	background-color: #e0e3e4;
+}
+
+.block a:link,.block a:visited,.block a:active /* hyperlink in a title of the block */
+{
+	color: #333;
+	text-decoration: none;
+	background-color: transparent;
+}
+.block a:hover /* hyperlink in a title of the block under mouse pointer */
+{
+	color: #333;
+	text-decoration: none;
+	background-color: #eee;
+}
+
+.r_field /* form fields */
+{
+	font-family: "Verdana", "Tahoma", "Sans", sans-serif;
+	border: 1px solid #aaa;
+	font-size: 8pt;
+	width: 100%;
+	color: #000;
+	background-color: #fff;
+}
+.r_field_user
+{
+	font-family: "Verdana", "Tahoma", "Sans", sans-serif;
+	border: 1px solid #aaa;
+	font-size: 8pt;
+	width: 100%;
+	padding-left: 18px;
+	background-image: url('images/user.png');
+	background-position: 0px 0px;
+	background-repeat: no-repeat;
+	color: #000;
+	background-color: #fff;
+}
+.r_field_password
+{
+	font-family: "Verdana", "Tahoma", "Sans", sans-serif;
+	border: 1px solid #aaa;
+	font-size: 8pt;
+	width: 100%;
+	padding-left: 18px;
+	background-image: url('images/action_check.png');
+	background-position: 0px 0px;
+	background-repeat: no-repeat;
+	color: #000;
+	background-color: #fff;
+}
+
+.num_field /* the control number */
+{
+	font-family: "Verdana", "Tahoma", "Sans", sans-serif;
+	border: 1px solid #aaa;
+	font-size: 8pt;
+}
+.r_button /* form buttons */
+{
+	font-family: "Verdana", "Tahoma", "Sans", sans-serif;
+	font-size: 8pt;
+	background-color: #e1e1e1;
+	background-image: url('images/bbg.png');
+	color: #000;
+	border-bottom: 1px solid #4e4e4e;
+	border-top: 1px solid #f8f8f8;
+	border-left: 1px solid #cacaca;
+	border-right: 1px solid #787878;
+	height: 20px;
+	margin-right: 2px;
+	margin-left: 2px;
+}
+.r_radio /* form radiobuttons */
+{
+	vertical-align: middle;
+}
+.num_img /* the control number */
+{
+	border: 1px solid #aaa;
+}
+div.copyright /* copyright block in the bottom */
+{
+	padding: 10px;
+	font-size: 8pt;
+	text-align: center;
+}
+hr.copyright /* horizontal line in the copyright block */
+{
+	width: 50%;
+}
+.lntext /* the text abstraction in the "Last news" block */
+{
+	font-size: 8pt;
+}
+.stat td /* statistics */
+{
+	font-size: 8pt;
+}
+.chatarea /* the chat iframe */
+{
+	border: 1px solid #aaa;
+}
+.poll /* poll */
+{
+	font-size: 8pt;
+}
+div.poll /* poll container */
+{
+	padding: 3px;
+}
+.textarea_msg /* textarea */
+{
+	border: 1px solid #aaa;
+	width: 100%;
+	height: 100px;
+	font-family: "Verdana", "Tahoma", "Sans", sans-serif;
+	font-size: 8pt;
+}
+
+table.gbk /* the guestbook table */
+{
+	border-collapse: collapse;
+	margin-bottom: 16px;
+}
+table.gbk td /* text container of the guestbook table */
+{
+	border: 1px solid #aaa;
+	background-color: #e0e3e4;
+}
+table.gbk th /* author's info container of the guestbook table */
+{
+	font-weight: normal;
+	text-align: left;
+	border: 1px solid #aaa;
+	background-color: #ccc;
+	color: #333;
+}
+table.gbk th td,table.gbk td td
+{
+	border: 0px none;
+	background-color: transparent;
+	color: #000;
+}
+
+.contact_info,a.contact_info:link,a.contact_info:hover,a.contact_info:active,a.contact_info:visited /* author's info links */
+{
+	color: #fff;
+	text-decoration: none;
+	font-size: 8pt;
+}
+
+form /* the forms */
+{
+	margin: 0px;
+	padding: 0px;
+}
+/*
+.code,.quote
+{
+	padding: 8px;
+	border: 4px solid #ccc;
+	background-color: #fff;
+	margin: 0px;
+}*/
+
+.bbquote,.bbcode
+{
+	padding: 8px;
+	border: 4px solid #ccc;
+	background-color: #fff;
+	margin: 0px;
+}
+
+.caption
+{
+	padding-bottom: 8px;
+	border-bottom: 1px solid #ccc;
+}
+
+blockquote
+{
+	margin: 0px;
+	padding: 0px;
+	font-size: 8pt;
+}
+
+pre
+{
+	margin: 0px;
+	padding: 0px;
+	overflow: auto;
+	font-family: "DejaVu Sans Mono", "Courier New", monospace;
+}
+
+ul li /* list element */
+{
+	list-style-image:url('images/dot.gif');
+}
+
+table.message
+{
+	margin-top: 24px;
+	margin-bottom: 24px;
+}
+
+h1.message_title
+{
+	color: #fff;
+	background-color: transparent;
+	text-align: center;
+	font-family: "Tahoma", "Sans Serif", sans-serif;
+	font-size: 16pt;
+	font-weight: normal;
+}
+
+div.message_text,div.message_links
+{
+	color: #fff;
+	background-color: transparent;
+	padding: 16px;
+	text-align: center;
+	font-size: 8pt;
+}
+
+div.message_text ul
+{
+	padding: 0px;
+	margin: 0px;
+}
+
+#message_link
+{
+	color: #fff;
+	background-color: transparent;
+	font-weight: bold;
+	text-decoration: none;
+	font-family: "Arial", "Sans Serif", sans-serif;
+	font-size: 10pt;
+}
+
+div.message_text ul li
+{
+	list-style-image: none;
+	text-align: left;
+}
+
+td.message_tl
+{
+	background-image: url('images/tl.png');
+	color: #000;
+	width: 12px;
+	height: 12px;
+}
+td.message_tr
+{
+	background-image: url('images/tr.png');
+	color: #000;
+	width: 12px;
+	height: 12px;
+}
+td.message_bl
+{
+	background-image: url('images/bl.png');
+	color: #000;
+	width: 12px;
+	height: 12px;
+}
+td.message_br
+{
+	background-image: url('images/br.png');
+	color: #000;
+	width: 12px;
+	height: 12px;
+}
+td.message_m
+{
+	background-color: #c30;
+	color: #000;
+}
+td.message_t,td.message_b,td.message_l,td.message_r
+{
+	background-color: #c30;
+	color: #000;
+}
+
+.pagebar,.actions
+{
+	padding-top: 5px;
+	padding-bottom: 5px;
+}
+table.toolbar
+{
+	border: 0px none;
+}
+table.toolbar td
+{
+	border: 0px none;
+}
+
+.admin_button
+{
+	cursor: pointer;
+	border: 1px solid #f4f4f4; /* MSIE не понимает transparent border */
+}
+
+div.navbar
+{
+	margin-top: 0px;
+	margin-left: 0px;
+	margin-right: 0px;
+	margin-bottom: 8px;
+	padding: 8px;
+	background-color: #e0e3e4;
+	border: 2px solid #999;
+}
+
+div.navbar a,table.gbk th a
+{
+	color: #333;
+	background-color: transparent;
+}
+
+div.navbar a:hover,table.gbk th a:hover
+{
+	color: #333;
+	background-color: #eee;
+}
+
+fieldset
+{
+	padding: 5px;
+}
+
+.element_menu,.element_menu a:link,.element_menu a:active,.element_menu a:visited
+{
+	color: #ccc;
+	font-size: 8pt;
+	background-color: transparent;
+}
+.element_menu a:hover
+{
+	color: #000;
+	background-color: transparent;
+}
+
+.form_error
+{
+	padding: 16px;
+	color: #c00;
+	font-size: 8pt;
+}
+
+p
+{
+	margin: 0px;
+	padding-left: 0px;
+	padding-right: 0px;
+	padding-top: 0px;
+	padding-bottom: 8px;
+}
+
+a.online_level_1:link,a.online_level_1:hover,a.online_level_1:visited
+{
+	color: #a00;
+	font-weight: bold;
+}
+a.online_level_0
+{
+	
+}
+
+fieldset
+{
+	border: 1px solid #ccc;
+	padding: 4px;
+	margin: 4px;
+}
+
+fieldset legend
+{
+	font-size: 8pt;
+	padding: 4px;
+}

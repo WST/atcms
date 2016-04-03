@@ -1,0 +1,4 @@
+<tr>
+  <td width="40%" valign='top'><span class="widget_title">{TITLE}:</span>{?NOTE}<br><small>{NOTE}</small>{NOTE?}</td>
+  <td width="60%"><b>{VALUE}</b></td>
+</tr>

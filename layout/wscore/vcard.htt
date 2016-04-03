@@ -1,0 +1,75 @@
+<h1>{LANG_PROFILE}&nbsp;&mdash; {VCARD_USER}</h1>
+<!--
+-->
+<table cellpadding="3" cellspacing="0" class="gbk" width="100%">
+	<tr>
+		<th>{LANG_USER}</th>
+		<th>{LANG_AVATAR}</th>
+	</tr>
+	<tr>
+		<td>
+			{?VCARD_SIGNATURE}
+			<fieldset>
+				<legend>{LANG_SIGNATURE}</legend>
+				<small>{VCARD_SIGNATURE}</small>
+			</fieldset>
+			{VCARD_SIGNATURE?}
+			<fieldset>
+				<legend>{LANG_CONTACT_INFORMATION}</legend>
+			<table cellpadding="3" cellspacing="0" class="inblock" width="100%">
+				<tr>
+					<td valign="top" align="right" nowrap="nowrap"><b>{LANG_ACCESS_LEVEL}:</b></td>
+					<td valign="top">{VCARD_LEVEL}</td>
+				</tr>
+				<tr>
+					<td valign="top" align="right" nowrap="nowrap"><b>{LANG_REGISTERED_TIME}:</b></td>
+					<td valign="top">{VCARD_REGTIME}</td>
+				</tr>
+				<tr>
+					<td valign="top" align="right" nowrap="nowrap"><b>{LANG_EMAIL}:</b></td>
+					<td valign="top">{?VCARD_EMAIL}<a href="mailto:{VCARD_EMAIL}?subject=Hello">{VCARD_EMAIL}</a> (<a href="{WEB_PATH}/compose.php?id_user={VCARD_ID_USER}">{LANG_COMPOSE}</a>){VCARD_EMAIL?}{!VCARD_EMAIL}{LANG_HIDDEN} (<a href="{WEB_PATH}/compose.php?id_user={VCARD_ID_USER}&amp;type=email">{LANG_COMPOSE}</a>){VCARD_EMAIL!}</td>
+				</tr>
+				<tr>
+					<td valign="top" align="right" nowrap="nowrap"><b>{LANG_JID}:</b></td>
+					<td valign="top">{?VCARD_JID}<a href="xmpp:{VCARD_JID}">{VCARD_JID}</a> (<a href="{WEB_PATH}/compose.php?id_user={VCARD_ID_USER}&amp;type=xmpp">{LANG_COMPOSE}</a>){VCARD_JID?}{!VCARD_JID}{LANG_NO}{VCARD_JID!}</td>
+				</tr>
+				<tr>
+					<td valign="top" align="right" nowrap="nowrap"><b>{LANG_ICQ}:</b></td>
+					<td valign="top">{?VCARD_ICQ}<img style="margin-right: 4px; vertical-align: middle;" alt="status" src="http://web.icq.com/whitepages/online?icq={VCARD_ICQ}&amp;img=5"><a href="http://wwp.icq.com/{VCARD_ICQ}">{VCARD_ICQ}</a> (<a href="{WEB_PATH}/compose.php?id_user={VCARD_ID_USER}&amp;type=icq">{LANG_COMPOSE}</a>){VCARD_ICQ?}{!VCARD_ICQ}{LANG_NO}{VCARD_ICQ!}</td>
+				</tr>
+				{?VCARD_SITE}
+				<tr>
+					<td valign="top" align="right" nowrap="nowrap"><b>{LANG_SITE}:</b></td>
+					<td valign="top"><a href="{VCARD_SITE}" target="_blank">{VCARD_SITE}</a></td>
+				</tr>
+				{VCARD_SITE?}
+				<tr>
+					<td valign="top" align="right" nowrap="nowrap"><b>{LANG_PHONE}:</b></td>
+					<td valign="top">{?VCARD_PHONE}{VCARD_PHONE}{VCARD_PHONE?}{!VCARD_PHONE}{LANG_NO}{VCARD_PHONE!}</td>
+				</tr>
+				{?VCARD_LOCATION}
+				<tr>
+					<td valign="top" align="right" nowrap="nowrap"><b>{LANG_LOCATION}:</b></td>
+					<td valign="top">{VCARD_LOCATION}</td>
+				</tr>
+				{VCARD_LOCATION?}
+				{?VCARD_OCCUPATION}
+				<tr>
+					<td valign="top" align="right" nowrap="nowrap"><b>{LANG_OCCUPATION}:</b></td>
+					<td valign="top">{VCARD_OCCUPATION}</td>
+				</tr>
+				{VCARD_OCCUPATION?}
+				{?VCARD_INTERESTS}
+				<tr>
+					<td valign="top" align="right" nowrap="nowrap"><b>{LANG_INTERESTS}:</b></td>
+					<td valign="top">{VCARD_INTERESTS}</td>
+				</tr>
+				{VCARD_INTERESTS?}
+			</table>
+			</fieldset>
+		</td>
+		<td valign="middle" align="center" width="25%">
+			{?VCARD_AVATAR}{VCARD_AVATAR}{VCARD_AVATAR?}{!VCARD_AVATAR}{LANG_NO}{VCARD_AVATAR!}
+		</td>
+	</tr>
+</table>

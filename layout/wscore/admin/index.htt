@@ -1,0 +1,4 @@
+<h1>{LANG_ACP}</h1>
+<div class="navbar">{LANG_ADMIN_INTERFACE}</div>
+<noscript><p>{LANG_NO_JAVASCRIPT}</p></noscript>
+{ADMIN_MENU}

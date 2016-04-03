@@ -1,0 +1,27 @@
+    </td>
+    <td width='15'></td>
+    <td width="220" valign="top">
+{BLOCKS_RIGHT}
+    </td>
+    <td width='25'></td>
+  </tr>
+  <tr>
+    <td colspan='7' class='footer'>
+<div align="center"><hr class="footer"></div>
+<div>Project by <a href="http://averkov.web.id">Ilya I. Averkov</a>&nbsp;&amp; Dmitriy&nbsp;Lisitsin<br>Dedicated to our memories of 2005–2007<!--{POWEREDBY}<br>
+{LANG_DB_QUERIES}: {DB_QUERIES} | {LANG_GENERATION}: {GENERATION} {LANG_SECONDS}-->
+<br>Hosted by <a href="http://averkov.net/services/hosting/" target="_blank">AverkovNET</a>
+{?ADMIN}<br>
+{?MODULE_DEBUG}
+<br>{LANG_MODULE_DEBUG}:
+<pre>
+{MODULE_DEBUG}
+</pre>
+{MODULE_DEBUG?}
+{ADMIN?}
+</div>
+    </td>
+  </tr>
+</table>
+</body>
+</html>

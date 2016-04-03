@@ -1,0 +1,13 @@
+<table width="100%" cellpadding="3" cellspacing="0">
+	<tr>
+		<td align="center">
+			<a title="{IMAGE_DESCRIPTION}" href="{WEB_PATH}/images/{IMAGE_FILENAME}" rel="lightbox">{IMAGE}</a>
+		</td>
+	</tr>
+	<tr>
+		<td align="center">
+			<b>{IMAGE_TITLE}</b><br>
+			<small>{IMAGE_DESCRIPTION}</small>
+		</td>
+	</tr>
+</table>

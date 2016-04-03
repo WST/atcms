@@ -1,0 +1,27 @@
+</td>
+<td width="200" valign="top">
+{BLOCKS_RIGHT}
+</td>
+</tr>
+</table>
+<div class="copyright">
+<hr class="copyright">
+<div>
+	<a href="http://php.net" title="PHP Hypertext Preprocessor"><img alt="PHP" src="{WEB_PATH}/images/php-power-micro2.png"></a>
+	<a href="http://mysql.com" title="MySQL"><img alt="MySQL" src="{WEB_PATH}/images/get_mysql_80x15_2.png"></a>
+	<img alt="HTML" src="{WEB_PATH}/images/valid_html401_80x15_22.png">
+	<img alt="CSS" src="{WEB_PATH}/images/valid_css_80x15_22.png">
+</div>
+{POWEREDBY}<br>
+{LANG_DB_QUERIES}: {DB_QUERIES} || {LANG_GENERATION}: {GENERATION} {LANG_SECONDS}
+{?ADMIN}
+{?MODULE_DEBUG}
+<br>{LANG_MODULE_DEBUG}:
+<pre>
+{MODULE_DEBUG}
+</pre>
+{MODULE_DEBUG?}
+{ADMIN?}
+</div>
+</body>
+</html>

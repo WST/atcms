@@ -1,0 +1,4 @@
+<h1>{LANG_STRUCTURE_MANAGEMENT}</h1>
+<div class="navbar"><a href="{WEB_PATH}/admin.php">{LANG_ACP}</a>&nbsp;&raquo;&nbsp;<a href="{WEB_PATH}/admin.php?act=structure">{LANG_STRUCTURE_MANAGEMENT}</a>&nbsp;&raquo;&nbsp;{LANGUAGE_NAME}</div>
+<div class="actions"><a href="{WEB_PATH}/admin.php?act=structure_element_new&amp;id_element=0&amp;language={LANGUAGE}">{LANG_NEW_ROOT_ELEMENT}</a></div>
+{TREE}

@@ -1,0 +1,4 @@
+<tr>
+	<td width="40%">{TITLE}:{?NOTE}<br><small>{NOTE}</small>{NOTE?}</td>
+	<td width="60%">{VALUE}</td>
+</tr>

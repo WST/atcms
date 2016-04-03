@@ -1,0 +1,26 @@
+<table width="100%" cellpadding="0" cellspacing="0" class="block">
+	<tr>
+		<th class="tl"><img alt="" src="{PATH}/images/spacer.gif" width="1" height="1"></th>
+		<th class="block_th"><a href="#" onclick="switch_block('block{ID_BLOCK}'); return false;">{TITLE}</a></th>
+		<th class="tr"><img alt="" src="{PATH}/images/spacer.gif" width="1" height="1"></th>
+	</tr>
+	<tr>
+		<td class="l"><img alt="" src="{PATH}/images/spacer.gif" width="1" height="1"></td>
+		<td class="block_td">
+			<div id="block{ID_BLOCK}">
+				{CONTENT}
+			</div>
+		</td>
+		<td class="r"><img alt="" src="{PATH}/images/spacer.gif" width="1" height="1"></td>
+	</tr>
+	<tr>
+		<td class="bl"></td>
+		<td class="b"></td>
+		<td class="br"></td>
+	</tr>
+</table>
+<script type="text/javascript" language="javascript">
+<!--
+if (getCookie("block{ID_BLOCK}") == "0") fetch_object("block{ID_BLOCK}").style.display="none";
+//-->
+</script>

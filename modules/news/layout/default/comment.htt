@@ -1,0 +1,24 @@
+<tr>
+	<td align="center"><b>{COMMENT_USER}</b></td>
+	<td><small>{LANG_NEWS_POSTED}:&nbsp;{DATETIME}</small></td>
+</tr>
+<tr>
+	<td width="140" valign="top" align="center">
+		<div><small>{COMMENT_USER_LEVEL}</small></div>
+		{?COMMENT_USER_AVATAR}<div style="margin-top: 4px;">{COMMENT_USER_AVATAR}</div>{COMMENT_USER_AVATAR?}
+	</td>
+	<td valign="top">
+		{COMMENT}
+		<br><br>
+		{?SIGNATURE}
+		<div>____________</div>
+		<div class="small">{SIGNATURE}</div>
+		{SIGNATURE?}
+	</td>
+</tr>
+<tr>
+	<td align="center">
+		<div>{ACTIONS}</div>
+	</td>
+	<td>{?EMAIL}<a href="{WEB_PATH}/compose.php?id_user={COMMENT_ID_USER}"><img src="{NEWS_LAYOUT}/images/email.png" alt="E-mail" style="margin-right: 4px;"></a>{EMAIL?}{?ICQ}<a href="http://wwp.icq.com/{ICQ}"><img src="{NEWS_LAYOUT}/images/icq.png" alt="ICQ" style="margin-right: 4px;"></a>{ICQ?}{?JABBER}<a href="xmpp:{JABBER}"><img src="{NEWS_LAYOUT}/images/jabber.png" alt="Jabber"></a>{JABBER?}</td>
+</tr>

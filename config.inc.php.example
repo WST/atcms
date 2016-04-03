@@ -1,0 +1,14 @@
+<?php
+
+define('DB_DRIVER', 'mysql');
+define('DB_SERVER', 'localhost');
+define('DB_SERVER_PORT', 3306);
+define('DB_DATABASE', 'database_name');
+define('DB_USER', 'username');
+define('DB_PASSWORD', '123456');
+define('DB_TABLES_PREFIX', 'site_');
+define('DEBUG', false);
+define('LANGUAGE', 'ru');
+define('ATCMS_WEB_PATH', '');
+
+?>

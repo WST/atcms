@@ -1,0 +1,4 @@
+<tr>
+  <td width="40%"><span class="widget_title">{TITLE}:</span>{?NOTE}<br><small>{NOTE}</small>{NOTE?}</td>
+  <td width="60%"><input type="text" class="input_field" name="{NAME}" value="{VALUE}"{?MAXLENGTH} maxlength="{MAXLENGTH}"{MAXLENGTH?}></td>
+</tr>

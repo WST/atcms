@@ -1,0 +1,10 @@
+<table width="100%" cellpadding="0" cellspacing="0" class="block">
+	<tr>
+		<th class="block">{TITLE}</th>
+	</tr>
+	<tr>
+		<td class="block">
+			{CONTENT}
+		</td>
+	</tr>
+</table>

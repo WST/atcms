@@ -1,0 +1,12 @@
+{?ADMIN}
+{FORM}
+{ADMIN?}
+{?MESSAGES}
+{?PGBAR}<div class="pgbar">{PGBAR}</div>{PGBAR?}
+<table width="100%" cellpadding="0" cellspacing="0">
+{MESSAGES}
+</table>
+{MESSAGES?}
+{!MESSAGES}
+<p>{LANG_NEWS_NOMESSAGES}</p>
+{MESSAGES!}

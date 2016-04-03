@@ -1,0 +1,8 @@
+<h1>{LANG_USERS_MANAGEMENT}</h1>
+<div class="navbar"><a href="{WEB_PATH}/admin.php">{LANG_ACP}</a>&nbsp;&raquo;&nbsp;{LANG_USERS_MANAGEMENT}</div>
+<div class="actions"><a href="{WEB_PATH}/admin.php?act=new_user">{LANG_NEW_USER}</a></div>
+{PGBAR}
+<table width="100%" class="gbk" cellpadding="3" cellspacing="0">
+<tr><th>{LANG_LOGIN}</th><th>{LANG_ACCESS_LEVEL}</th><th width="1%">{LANG_USER_ACTIONS}</th></tr>
+{USERS_LIST}
+</table>

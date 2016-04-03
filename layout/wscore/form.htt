@@ -1,0 +1,14 @@
+<form method="{METHOD}" action="{ACTION}"{?ENCTYPE} enctype="{ENCTYPE}"{ENCTYPE?}>
+{FORM_HIDDEN_DATA}
+<table width="100%" class="gbk" cellpadding="3" cellspacing="0">
+	{?FORM_ERROR}
+	<tr>
+		<td colspan="2" align="center" class="form_error">
+			{FORM_ERROR}
+		</td>
+	</tr>
+	{FORM_ERROR?}
+	{FORM_DATA}
+	<tr><td colspan="2" align="center"><input type="submit" value="{LANG_SUBMIT}" class="r_button"><input type="reset" value="{LANG_RESET}" class="r_button"></td></tr>
+</table>
+</form>

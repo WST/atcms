@@ -1,0 +1,4 @@
+<tr>
+  <td width="40%"><span class="widget_title">{TITLE}:</span>{?NOTE}<br><small>{NOTE}</small>{NOTE?}</td>
+  <td width="60%"><select class="input_select" name="{NAME}">{VALUE}</select></td>
+</tr>

@@ -1,0 +1,15 @@
+<form action="{WEB_PATH}/search.php" method="POST">
+<table cellpadding="4" cellspacing="0" width="100%">
+  <tr>
+    <td align="right" width="1%">{LANG_FIND}:</td>
+    <td width="*"><input type="text" name="find" class="input_field" id="find"></td>
+  </tr>
+  <tr>
+    <td align="right" width="1%">{LANG_LOGICS}:</td>
+    <td width="*"><select name="method" class="input_field"><option selected value="AND">{LANG_AND}</option><option selected value="OR">{LANG_OR}</option></select></td>
+  </tr>
+  <tr>
+    <td align="center" colspan="2"><input type="submit" class="input_button" value="{LANG_FIND}" onclick="return check_minlength('find', '{LANG_TOO_SHORT}', 3);"></td>
+  </tr>
+</table>
+</form>

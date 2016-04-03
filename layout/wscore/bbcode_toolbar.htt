@@ -1,0 +1,13 @@
+<script type="text/javascript" language="javascript" src="misc/bbcodes.js"></script>
+<table width="100%" cellpadding="2" cellspacing="0" class="toolbar">
+	{?EMOTICONS}
+	<tr>
+		<td align="center">{EMOTICONS}</td>
+	</tr>
+	{EMOTICONS?}
+	<tr>
+		<td align="center">
+			<button onclick="insertTags('{OBJECT}', '[b]', '[/b]', '');return false;" class="r_button"><b>B</b></button><button onclick="insertTags('{OBJECT}', '[i]', '[/i]', '');return false;" class="r_button"><i>I</i></button><!--<button onclick="insertTags('{OBJECT}', '[u]', '[/u]', '');return false;" class="r_button"><u>U</u></button>--><button onclick="insertTags('{OBJECT}', '[ul]', '[/ul]', '');return false;" class="r_button">ul</button><button onclick="insertTags('{OBJECT}', '[ol]', '[/ol]', '');return false;" class="r_button">ol</button><button onclick="insertTags('{OBJECT}', '[li]', '[/li]', '');return false;" class="r_button">li</button><button onclick="insertTags('{OBJECT}', '[url=http://]', '[/url]', '');return false;" class="r_button">url</button><button onclick="insertTags('{OBJECT}', '[img]', '[/img]', 'http://');return false;" class="r_button">img</button><button onclick="insertTags('{OBJECT}', '[pic]', '[/pic]', 'http://');return false;" class="r_button">pic</button><button onclick="insertTags('{OBJECT}', '[quote]', '[/quote]', '');return false;" class="r_button">quote</button><button onclick="insertTags('{OBJECT}', '[code]', '[/code]', '');return false;" class="r_button">code</button>
+		</td>
+	</tr>
+</table>

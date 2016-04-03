@@ -1,0 +1,11 @@
+{?COMMENTS}
+{?PGBAR}<div class="pgbar">{PGBAR}</div>{PGBAR?}
+<table class="gbk" width="100%" cellpadding="3" cellspacing="0">
+	<tr>
+		<th>{LANG_NEWS_USER}</th>
+		<th>{LANG_NEWS_COMMENT}</th>
+	</tr>
+	{COMMENTS}
+</table>
+{?PGBAR}<div class="pgbar">{PGBAR}</div>{PGBAR?}
+{COMMENTS?}
